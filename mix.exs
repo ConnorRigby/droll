@@ -42,6 +42,7 @@ defmodule Droll.MixProject do
         "test",
         "mix.exs",
         "README.md",
+        "CHANGELOG.md",
         "LICENSE"
       ],
       licenses: ["Apache-2.0"],
@@ -58,7 +59,7 @@ defmodule Droll.MixProject do
 
   defp docs do
     [
-      extras: ["README.md"],
+      extras: ["README.md", "CHANGELOG.md"],
       main: "readme",
       source_ref: "v#{@version}",
       source_url: @source_url
